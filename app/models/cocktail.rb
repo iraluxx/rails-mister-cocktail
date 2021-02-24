@@ -4,8 +4,5 @@ class Cocktail < ApplicationRecord
 
     validates :name, uniqueness: true, presence: true
 
-    def index 
-        @cocktails = Cocktail.all
-    end 
 
 end

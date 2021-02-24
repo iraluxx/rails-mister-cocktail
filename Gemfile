@@ -50,3 +50,6 @@ gem 'rails-controller-testing', group: [ :test ]
 gem "autoprefixer-rails", "~> 10.2"
 
 gem "simple_form", "~> 5.1"
+
+
+gem 'font-awesome-sass', '~> 5.12.0'

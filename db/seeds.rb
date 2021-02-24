@@ -11,6 +11,7 @@ puts "Start of seed"
 puts "Clean DB"
 
 Ingredient.destroy_all
+Cocktail.destroy_all
 
 puts "Creating 3 different Ingredients"
 
@@ -20,5 +21,9 @@ Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
 Ingredient.create(name: "mint")
 Ingredient.create(name: "tequila")
+
+puts "Creating 1  cocktail"
+
+Cocktail.create(name: "margarita")
 
 puts "Done"
